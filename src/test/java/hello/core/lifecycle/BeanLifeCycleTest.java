@@ -19,7 +19,7 @@ public class BeanLifeCycleTest {
         @Bean
         public NetworkClient networkClient(){
             NetworkClient networkClient = new NetworkClient();
-            networkClient.setUrl("http://hello-spring.dev");
+            networkClient.setUrl("http://hello-spring.dev"); // 무엇이 의존관계인가
             return networkClient;
         }
 
